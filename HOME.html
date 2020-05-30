@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>BR Social</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script>
+		$(document).ready(function() {
+            $('form').submit(function(e){
+              e.preventDefault();
+              document.location.href = './' + $('#password').val() + '.html';
+            });
+          });
+        </script>
+	</head>
+	<body class="index is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header" class="alt">
+					<h1 id="logo"><a href="index.html">BR Business Group <span>Escape Room social</span></a></h1>
+					<nav id="nav">
+						<ul>
+							<li class="current"><a href="index.html">HOME</a></li>
+							</ul>
+					</nav>
+				</header>
+
+			<!-- Banner -->
+				<section id="banner">
+
+					<!--
+						".inner" is set up as an inline-block so it automatically expands
+						in both directions to fit whatever's inside it. This means it won't
+						automatically wrap lines, so be sure to use line breaks where
+						appropriate (<br />).
+					-->
+					<div class="inner">
+
+						<header>
+							<h2>ESCAPE ROOM SOCIAL</h2>
+						</header>
+						<p>WELCOME TO THE
+						<br />
+						<strong>BR BUSINESS GROUP</strong>
+						<br />
+						ESCAPE ROOM SOCIAL</p>
+					</div>
+					
+				</section>
+
+			<!-- Main -->
+				<article id="main">
+									
+					<header class="special container">
+						<span class="icon solid fa-key"></span>
+						<p>You and your team have been captured and must escape.
+						You find yourselves two floors underground with many locked doors between yourselves and freedom.
+						Each door must be unlocked with a code.</p>
+						<br /> 
+						<p>In each room you will need to solve a puzzle, riddle or problem to reveal the code to the next door. 
+						All codes are made up of capital letters and/or numbers</p>
+						<br />
+						<p>You will be given the code to enter Room 1 shortly, where your adventure will begin.</p>
+						<p><form>
+							<label for="password">Code: </label>
+							<input id="password" type="text" placeholder="Enter code here...">
+							<button type="submit">Submit</button>
+						</form></p>
+					</header>
+						
+					<!-- One -->
+						<section class="wrapper style2 container special-alt">
+							<div class="row gtr-50">
+								<div class="col-8 col-12-narrower">
+
+									<header>
+										<h2><strong>Rules of play</strong></h2>
+									</header>
+									<p>Teams will receive the following points for being the first to reach different map milestones.</p>
+									<ul style="list-style-type:square;">
+									<li>First team to finish floor 1</li>
+									<li>First team to finish floor 2</li>
+									<li>First team to finish foor 3</li>
+									</ul>
+									<p>If your team gets stuck on a puzzle there are hints available. 
+									<br />Please request hints in your individual team chats for a hint on any particular code.</p>
+									<ul style="list-style-type:square;">
+									<li>Hints will cost your team two points each</li>
+									</ul>
+									<footer>
+										<ul class="buttons">
+											<li><a href="#" class="button">Current scores</a></li>
+										</ul>
+									</footer>
+
+								</div>
+								<div class="col-4 col-12-narrower imp-narrower">
+									<ul class="featured-icons">
+										<li><span class="icon fa-edit"> <span class="label"></span></span></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+										
+				</article>
+
+			<!-- Footer -->
+				<footer id="footer">
+				
+					<ul class="copyright">
+						<li>&copy; BR Business Group</li><li><i>Sorry if there are load of typos</i></a></li>
+					</ul>
+
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

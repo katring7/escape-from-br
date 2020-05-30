@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Ops</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script>
+		$(document).ready(function() {
+            $('form').submit(function(e){
+              e.preventDefault();
+              document.location.href = './' + $('#password').val() + '.html';
+            });
+          });
+        </script>
+	</head>
+	<body class="no-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">BR Business Group <span>Escape Room social</span></a></h1>
+					<nav id="nav">
+						<ul>
+							<li class="current"><a href="HOME.html">HOME</a></li>
+							</ul>
+					</nav>
+				</header>
+
+			<!-- Code machine -->
+				<article id="main">
+
+					<header class="special container">
+						<span class="icon solid fa-exclamation-triangle"></span>
+						<h2>Error <strong>404</strong></h2>
+					</header>
+
+			<!-- Main -->
+				<section class="wrapper style4 container">
+					<div class="content">
+					<header>
+						<h3 style= "text-align:center;">You have entered an incorrect answer </h3>
+						<p style= "text-align:center;"><a href="javascript: history.back(-1)">Go back and try again </a></p>
+						<p style="text-align:center;"><img src="images/notlikethis.png" alt="" height= "10%" width="10%"></p>
+					</header>
+				</section>
+			</article>
+		
+		<!-- Footer -->
+				<footer id="footer">
+				
+					<ul class="copyright">
+						<li>&copy; BR Business Group</li><li><i>Sorry if there are load of typos</i></a></li>
+					</ul>
+
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollgress.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
